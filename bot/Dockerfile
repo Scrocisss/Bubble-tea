@@ -1,4 +1,4 @@
-FROM python:3.12.9
+FROM python:3.14.1
 
 RUN apt update
 RUN apt install -y zlib1g-dev udev libnss3 ca-certificates
